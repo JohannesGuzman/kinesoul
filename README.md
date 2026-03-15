@@ -10,9 +10,7 @@ The site provides information about treatments, medical specialties, contact opt
 
 ## Live Demo
 
-Example:
-
-https://yourdomain.com/kinesoul
+[View website](https://johannesguzman.github.io/kinesoul/)
 
 ---
 
