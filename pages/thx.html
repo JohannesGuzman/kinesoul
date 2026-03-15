@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kinesoul - ¡Gracias!</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="icon" href="../assets/img/LogoBlancoRectangulo.jpeg" />
+  <style>
+    .thx-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 1rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .thx-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('../assets/img/gracias.png') center/cover no-repeat;
+      z-index: -1;
+      filter: brightness(0.6); 
+    }
+
+    .thx-content {
+      max-width: 600px;
+      color: white;
+      z-index: 2;
+    }
+
+    .thx-content h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .thx-content h2 {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 1.2rem;
+      line-height: 1.4;
+    }
+
+    .thx-content p {
+      font-size: 1.4rem;
+      opacity: 0.95;
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+
+    .btn-back {
+      background: #000;
+      color: white;
+      border: none;
+      padding: 0.8rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: 500;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-back:hover {
+      background: #333;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .thx-content h1 {
+        font-size: 2.5rem;
+      }
+      .thx-content h2 {
+        font-size: 1.6rem;
+      }
+      .thx-content p {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fondo de imagen -->
+  <div class="thx-bg"></div>
+
+  <!-- Contenido central -->
+  <div class="thx-page">
+    <div class="thx-content">
+      <h1>¡Listo!</h1>
+      <h2>En Kinesoul Agradecemos Tu Preferencia</h2>
+      <p>Nos vemos pronto.</p>
+      <a href="../index.html" class="btn-back">Volver al inicio</a>
+    </div>
+  </div>
+
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>
